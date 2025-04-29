@@ -17,7 +17,7 @@ import java.util.Locale;
 public class MakeMyTripTest {
 
     public static void main(String[] args) throws IOException {
-        System.setProperty("webdriver.chrome.driver", "/Users/I528989/Downloads/chromedriver-mac-x64/chromedriver");
+        System.setProperty("webdriver.chrome.driver", " / path / to / chromedriver ");
 
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
