@@ -144,3 +144,10 @@ The program handles errors gracefully by:
 - Catching WebDriverException for issues with the WebDriver.
 - Handling TimeoutException when waiting for elements to become available.
 - Capturing screenshots for debugging purposes.
+
+## Screenshots:
+
+![TC01_valid_city.png](screenshots/TC01_valid_city.png)
+![TC01_valid_city_search.png](screenshots/TC01_valid_city_search.png)
+![TC02_invalid_city.png](screenshots/TC02_invalid_city.png)
+![TC02_invalid_city_search.png](screenshots/TC02_invalid_city_search.png)
