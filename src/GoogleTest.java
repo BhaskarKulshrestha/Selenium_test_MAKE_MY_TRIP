@@ -11,7 +11,7 @@ import java.time.Duration;
 public class GoogleTest {
     public static void main(String[] args) {
         // Set the path to your ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "/Users/I528989/Downloads/chromedriver-mac-x64/chromedriver");
+        System.setProperty("webdriver.chrome.driver", " / path / to / chromedriver ");
 
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
