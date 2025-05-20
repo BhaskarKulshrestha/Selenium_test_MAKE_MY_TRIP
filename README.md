@@ -151,3 +151,81 @@ The program handles errors gracefully by:
 ![TC01_valid_city_search.png](screenshots/TC01_valid_city_search.png)
 ![TC02_invalid_city.png](screenshots/TC02_invalid_city.png)
 ![TC02_invalid_city_search.png](screenshots/TC02_invalid_city_search.png)
+
+
+
+## Output in the Terminal:
+
+```declarative
+
+
+May 20, 2025 10:28:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 136
+Starting Valid test case...
+The source location as 'Delhi' is selected
+The destination location as 'Mumbai' is selected
+Search results page did not load in time.
+The Result URL is:https://www.makemytrip.com/flight/search?itinerary=DEL-BOM-21/05/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E&lang=eng
+Result URL opened in Safari.
+Safari closed automatically after 15 seconds.
+Test completed and screenshot taken.
+Browser closed. Test run finished for Valid Scenarios.
+===============================================================================
+May 20, 2025 10:30:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 136
+Starting Invalid test case 1...
+The source location as 'NULL' is selected
+The destination location as 'Mumbai' is selected
+WebDriver Error: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@aria-label='Wed May 21 2025'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '4ae8fc9f8a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: /var/folders/00/7jgnh3mx72x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50540/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac0f75891e5a7b21b15c1b2896b0c44
+Browser closed. Test run finished for invalid From city = NULL.
+===============================================================================
+May 20, 2025 10:31:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 136
+Starting Invalid test case 2...
+The source location as '12345' is selected
+The destination location as 'Mumbai' is selected
+WebDriver Error: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@aria-label='Wed May 21 2025'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '4ae8fc9f8a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: /var/folders/00/7jgnh3mx72x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50677/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35f93bda2b42776b7d429eaf2511174c
+Browser closed. Test run finished for Invalid from city = INVALID_CITY.
+===============================================================================
+May 20, 2025 10:32:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 136
+Starting Invalid test case 3...
+The source location as 'Delhi' is selected
+The destination location as 'NULL' is selected
+WebDriver Error: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@aria-label='Wed May 21 2025'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '4ae8fc9f8a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: /var/folders/00/7jgnh3mx72x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51082/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8659fc8b20afbef2353c94b7d81a2111
+Browser closed. Test run finished for invalid To city = NULL.
+===============================================================================
+May 20, 2025 10:34:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 136
+Starting Invalid test case...
+The source location as 'Delhi' is selected
+The destination location as '12345' is selected
+WebDriver Error: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@aria-label='Wed May 21 2025'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '4ae8fc9f8a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: /var/folders/00/7jgnh3mx72x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51417/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40443f520c9c68cdb66717399a6e715a
+Browser closed. Test run finished for invalid TO city = 12345.
+===============================================================================
+All the positive and negative test cases completed!!
+
+Process finished with exit code 0
+
+
+```
